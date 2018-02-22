@@ -48,7 +48,7 @@ Each element of C is computed as follows:
                ___
      c[i][j] = >    a[i][k] * b[k][j]
                ---
-	       k=0
+               k=0
 
 If you don't like my ASCII art sigma sum notation, fear not!  Here is
 some pseudocode to get you started!
