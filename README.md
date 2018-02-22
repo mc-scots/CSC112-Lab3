@@ -58,12 +58,12 @@ some pseudocode to get you started!
      C = a new matrix with dimensions m, p
 
      for i = 0 to m-1    (loop over rows)
-     	 for j = 0 to p-1 (loop over columns)
+  	 for j = 0 to p-1 (loop over columns)
 	     c[i][j] = 0   (start at 0)
-	     for k = 0 to n-1 (loop over the inner dimension)
-	     	 c[i][j] += a[i][k] * b[k][j]
-	     end for
-	 end for
+             for k = 0 to n-1 (loop over the inner dimension)
+                 c[i][j] += a[i][k] * b[k][j]
+             end for
+         end for
      end for
 
 So really, all you have to do is translate the above pseudocode into
